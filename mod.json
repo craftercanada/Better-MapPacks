@@ -5,7 +5,7 @@
     },
     "id": "crafter.bettermappacks",
     "name": "BetterMapPacks",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "developer": "Crafter",
     "description": "shows what levels to beat before beginner extreme",
     "dependencies": {
