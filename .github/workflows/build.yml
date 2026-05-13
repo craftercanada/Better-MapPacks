@@ -14,3 +14,9 @@ jobs:
 
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: geode-mod
+          path: build/**/*.geode
