@@ -8,7 +8,7 @@
 	},
 	"id": "crafter.bettermappacks",
 	"name": "BetterMapPacks",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Crafter",
 	"description": "makes the map packs have better progression to the game.",
 	"dependencies": {
