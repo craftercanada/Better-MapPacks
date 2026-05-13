@@ -1,24 +1,14 @@
-name: Build Geode Mod
-
-on:
-  push:
-  pull_request:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Build Mod
-        uses: geode-sdk/build-geode-mod@main
-        with:
-          platforms: win
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: geode-mod
-          path: build/**/*.geode
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081"
+    },
+    "id": "crafter.bettermappacks",
+    "name": "BetterMapPacks",
+    "version": "v1.0.1",
+    "developer": "Crafter",
+    "description": "shows what levels to beat before beginner extreme",
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    }
+}
